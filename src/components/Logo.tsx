@@ -6,6 +6,6 @@ export default function Logo() {
     <div className="flex flex-col items-center">
       <Image src={logo || "/placeholder.svg"} alt="MedFlashcards Logo" width={220} height={220} priority />
     </div>
-  )
+  ) 
 }
 
